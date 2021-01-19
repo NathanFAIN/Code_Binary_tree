@@ -15,5 +15,6 @@ int main(void)
     binary_tree_add_right(&binary_tree, binary_tree_create('b', 2));
     binary_tree_add_left(&binary_tree, binary_tree_create('c', 4));
     printf("Size : %d", binary_tree_size(binary_tree));
+    binary_tree_destroy(binary_tree);
     return (0);
 }
