@@ -8,6 +8,10 @@
 #include "binary_tree.h"
 
 /*
+Réalise les 6 fonctions ci-dessous :
+*/
+
+/*
 Malloc et initialise le nouveau node.
 */ 
 binary_tree_t *binary_tree_create(char letter, int occurrence)
